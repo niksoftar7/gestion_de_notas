@@ -1,6 +1,6 @@
 <h1>:coffee:Trabajo de programacion</h1>
 <p text-aling: justify>
-Este trabajo sera realizado en el lenguaje de programacion de java el cual se hara bajo el contexto de que un programa academico nos contrata para hacer un programa que registre a los estudiantes de un curso con su nombre y documento, que este ingrese 3 notas, nos diga su promedio y muestre su estado (aprobado o suspendido)
+Este trabajo se realizará en el lenguaje de programación Java, bajo el contexto de un encargo de un programa académico para desarrollar un software que registre a los estudiantes de un curso con su nombre y documento. El programa permitirá ingresar tres notas, calcular el promedio y mostrar el estado del estudiante (aprobado o suspendido).
 </p>
 <h2>
 	:top:Funcionalidades
