@@ -5,11 +5,12 @@ public class trabajo {
   
     //Bienvenida al programa
       Scanner input = new Scanner(System.in);
-      System.out.println("bienvenidos al programa de gestion de notas del curso");
-      System.out.println("_____________________________________________________");
-      
+      System.out.println("---------------------------------------------------------");
+      System.out.println("HOLA DE NUEVO :)");
+      System.out.println("mi nombre es Jani y estaré guiandote en este recorrido");
+      System.out.println("_________________________________________________________");         
       //se pregunta cuantos estudiantes van a registrar en el programa
-      System.out.println("ingrese la cantidad de estudiantes que van a registrar");
+      System.out.println("indicame el numero de estudiantes que deseas revisar :)");
 
       //se inicializan las variables para que funcionen correctamente con la proxima estructura
       int flag = 0 , numberStudents = 0;
@@ -26,7 +27,7 @@ public class trabajo {
         //si el numero no es correcto continua en el bucle
         else{
           flag=0;
-          System.out.println("el numero ingresado no es valido, ingrese un numero que sea valido");
+          System.out.println("recuerda deben ser entero positivo sino me toteo, gracias");
         }
         
       }
@@ -45,12 +46,12 @@ public class trabajo {
         
         
         //se pide el nombre del estudiante
-        System.out.println("digite el nombre del estudiante " + (i+1));
+        System.out.println("indicame el nombre de el estudiante " + (i+1));
         input.nextLine();
         name[i] = input.nextLine();
 
         //se pide la identificacion del estudiante
-        System.out.println("digite la identificacion del estudiante " + (i+1));
+        System.out.println("dime el ID del estudiante " + (i+1));
         id[i] = input.nextInt();
 
         //se almacenan los datos en las matrices
@@ -85,12 +86,11 @@ public class trabajo {
         }
         else{
           status[i]="yucas parce :(";
-
-        }
-         
+        }       
       }
       
       //imprimimos todos los datos obtenidos en orden.
+      System.out.println("a continuación te brindaré el resultado final de todo :)");
       for(int i=0;i<numberStudents ;i++){
         System.out.println(name[i]+"(ID: "+id[i]+") - Promedio: "+ average[i]+" - " + status[i]);
       }
